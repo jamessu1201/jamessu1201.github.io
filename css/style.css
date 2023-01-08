@@ -3,12 +3,14 @@ h5{
 }
 
 .tv_h1{
-    width: 600px;
     background-color: rgb(206, 215, 223);
     color: #121111;
     font-size: 36px;
+    font-weight: bold;
     margin: 20px;
     padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .tv_div{
@@ -33,11 +35,16 @@ img{
     height: 50rem ;
 }
 
+video{
+    display: block;
+    margin: auto;
+}
+
 nav a{
     color:inherit;
     text-decoration: none;
     font-size: 1.5rem;
-    color:white !important;
+    color:black!important;
 }
 
 nav a:hover{
@@ -70,5 +77,11 @@ nav > li{
 
 .song{
     background:rgba(255,255,255,0.9);
+    margin-top: 2rem;
+    padding: 2rem;
+}
 
+.nav-title{
+    background:rgba(255,255,255,0.9);
+    margin-bottom: 2rem;
 }
