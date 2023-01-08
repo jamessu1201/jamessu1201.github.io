@@ -12,14 +12,11 @@
 </head>
 
 
-<header>
-    <h1 style="text-shadow:12px 8px 5px orange">新世紀福音戰士</h1>
-</header>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-light">
+<body background="background/background.jpg">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://www.youtube.com/watch?v=o6wtDPVkKqI">新世紀福音戰士</a>
+            <a class="navbar-brand" href="https://www.youtube.com/watch?v=o6wtDPVkKqI"><h2><strong>新世紀福音戰士</strong></h2></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,18 +29,18 @@
                         <a class="nav-link" href="w4hw/w4h4.html">W4HW</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="song.html">主題曲</a>
+                        <a class="nav-link" href="song/song.html">主題曲</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             劇情介紹
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="tv.html">TV版</a></li>
-                            <li><a class="dropdown-item" href="movie1.html">劇場版：序</a></li>
-                            <li><a class="dropdown-item" href="movie2.html">劇場版：破</a></li>
-                            <li><a class="dropdown-item" href="movie3.html">劇場版：Q</a></li>
-                            <li><a class="dropdown-item" href="movie4.html">劇場版：終</a></li>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item dropdown" href="movie/tv.html">TV版</a></li>
+                            <li><a class="dropdown-item dropdown" href="movie/movie1.html">劇場版：序</a></li>
+                            <li><a class="dropdown-item dropdown" href="movie/movie2.html">劇場版：破</a></li>
+                            <li><a class="dropdown-item dropdown" href="movie/movie3.html">劇場版：Q</a></li>
+                            <li><a class="dropdown-item dropdown" href="movie/movie4.html">劇場版：終</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -51,19 +48,55 @@
                             人物介紹
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item dropdown" href="character/shinji.html">碇真嗣</a></li>
+                            <li><a class="dropdown-item dropdown"  href="character/rei.html">綾波零</a></li>
+                            <li><a class="dropdown-item dropdown" href="character/asuka.html">惣流&middot;明日香&middot;蘭格雷</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">冷知識</a>
+                        <a class="nav-link" href="cold_know/cold_knowledge.html">冷知識</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <a href="https://hololive.hololivepro.com/en" target="_blank" ><img src="image/EVA.jpg" alt="hololive" width="100%"></a>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 2rem;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/EVA.jpg"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/EVA2.jpg"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/EVA3.jpg"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/EVA4.jpg"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/EVA5.jpg"  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    
     
 
 
@@ -76,6 +109,3 @@
 
 </html>
 
-{% comment %} <script type="text/javascript" >
-    alert("he's alive!");
-</script> {% endcomment %}

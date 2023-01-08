@@ -16,3 +16,59 @@ h5{
     margin: 50px;
     padding-left: 20px;
 }
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.character{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 50rem ;
+}
+
+nav a{
+    color:inherit;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:white !important;
+}
+
+nav a:hover{
+    background-color: gold;
+    color:black;
+}
+
+nav > li{
+    list-style: none;
+    background-color: black !important;
+    margin:0;
+    padding: 0;
+}
+
+.title{
+    size: 5;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+.dropdown{
+    color:inherit;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black !important;
+}
+
+.song{
+    background:rgba(255,255,255,0.9);
+
+}
